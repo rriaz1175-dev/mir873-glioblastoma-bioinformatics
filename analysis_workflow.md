@@ -31,3 +31,20 @@ No statistically significant differential expression was identified among the 17
 ## Overall Workflow
 
 GSE103228 expression assessment → miRDB target prediction → TargetScan-supported cross-referencing through miRCarta → STRING analysis → MCL clustering → g:Profiler enrichment analysis → literature review → independent expression assessment using GSE90886.
+
+## Reproducibility Notes
+
+The analysis was conducted using publicly available bioinformatics databases and gene expression datasets.
+
+- Dataset accession numbers: GSE103228 and GSE90886.
+- Target prediction: miRDB.
+- Target cross-referencing: TargetScan-supported predictions accessed through miRCarta.
+- Protein–protein interaction analysis: STRING.
+- Network clustering: MCL.
+- Functional enrichment: g:Profiler.
+
+The analysis workflow and principal findings are documented in this repository.
+
+Exact database versions, access dates, software settings, and analysis parameters should be added where available to support independent reproduction of the workflow.
+
+Computationally predicted targets should be considered candidate interactions and require experimental validation.
