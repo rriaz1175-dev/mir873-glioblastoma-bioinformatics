@@ -50,6 +50,15 @@ The analysis followed an integrative computational workflow:
 
 - Independent expression assessment: Analysis of GSE90886 did not identify statistically significant differential expression among the 17 candidate genes after multiple-testing correction.
 
+## Limitations
+
+- The study relied on publicly available datasets and computational analyses rather than experimental validation.
+- Candidate target genes were identified through computational prediction and database cross-referencing; their direct interaction with hsa-miR-873-5p was not experimentally confirmed.
+- The STRING analysis identified no interaction edges among the original candidate genes, limiting network-based interpretation.
+- Functional enrichment analysis did not identify statistically significant enrichment across the main functional categories.
+- Independent gene expression assessment did not identify statistically significant differential expression among the 17 candidate genes after multiple-testing correction.
+- Findings should therefore be interpreted as exploratory and hypothesis-generating rather than evidence of experimentally established molecular mechanisms.
+
 ## Important Note
 
 The candidate genes identified in this project are computationally predicted targets and should not be considered experimentally confirmed hsa-miR-873-5p targets in glioblastoma.
