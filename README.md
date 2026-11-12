@@ -18,14 +18,23 @@ What potential target genes and biological relationships can be identified for h
 
 ## Analysis Pipeline
 
-1. hsa-miR-873-5p expression analysis
-2. Target prediction using miRDB
-3. Cross-referencing with TargetScan-supported predictions through miRCarta
-4. STRING protein-protein interaction analysis
-5. MCL clustering
-6. Functional enrichment analysis using g:Profiler
-7. Literature review
-8. Independent expression assessment using GSE90886
+The analysis followed an integrative computational workflow:
+
+1. MicroRNA expression assessment: Evaluated hsa-miR-873-5p expression in glioblastoma and normal brain samples using GEO dataset GSE103228.
+
+2. Target prediction: Retrieved candidate target genes using miRDB, identifying 38 higher-scoring candidates.
+
+3. Candidate refinement: Cross-referenced predicted targets with TargetScan-supported predictions through miRCarta, resulting in 17 overlapping candidate genes.
+
+4. Protein–protein interaction analysis: Investigated potential interactions among the 17 candidate genes using STRING. The analysis detected no interaction edges and no significant PPI enrichment (p = 1).
+
+5. Network clustering: Explored potential network clusters using the MCL clustering approach.
+
+6. Functional enrichment: Assessed functional enrichment using g:Profiler. No significant enrichment was identified across the main functional categories.
+
+7. Literature review: Reviewed available literature to examine existing evidence related to the candidate genes and their potential biological relevance.
+
+8. Independent expression assessment: Evaluated the 17 candidate genes using the independent GEO dataset GSE90886. No statistically significant differential expression was identified after multiple-testing correction.
 
 ## Key Findings
 
