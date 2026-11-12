@@ -38,12 +38,17 @@ The analysis followed an integrative computational workflow:
 
 ## Key Findings
 
-- hsa-miR-873-5p showed markedly lower expression in the glioblastoma group in GSE103228.
-- 38 higher-scoring candidate genes were obtained from miRDB.
-- Cross-referencing produced 17 overlapping candidate genes.
-- The original 17-gene set showed no significant protein-protein interaction enrichment in STRING.
-- No robust functional enrichment was observed for the original candidate set.
-- Independent expression assessment in GSE90886 did not identify statistically significant differential expression after multiple-testing correction.
+- MicroRNA expression: hsa-miR-873-5p showed markedly lower expression in the glioblastoma group compared with normal brain samples in GSE103228.
+
+- Target prediction: miRDB identified 38 higher-scoring candidate target genes.
+
+- Candidate refinement: Cross-referencing with TargetScan-supported predictions through miRCarta narrowed the candidate set to 17 overlapping genes.
+
+- Protein–protein interaction analysis: STRING detected no interaction edges among the original 17 candidate genes, with no significant PPI enrichment (p = 1).
+
+- Functional enrichment: g:Profiler analysis did not identify robust statistically significant enrichment across the main functional categories.
+
+- Independent expression assessment: Analysis of GSE90886 did not identify statistically significant differential expression among the 17 candidate genes after multiple-testing correction.
 
 ## Important Note
 
