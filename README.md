@@ -1,5 +1,6 @@
 # Integrative Bioinformatics Analysis of hsa-miR-873-5p in Glioblastoma
-
+## Abstract
+This independent bioinformatics project investigated the potential role of hsa-miR-873-5p in glioblastoma through an integrative computational approach. The analysis combined microRNA expression assessment, target prediction, database cross-referencing, protein–protein interaction analysis, functional enrichment, literature review, and independent gene expression assessment. The study identified a set of candidate target genes; however, subsequent analyses did not demonstrate significant functional enrichment or independent differential expression after multiple-testing correction. These findings highlight the exploratory nature of computational target prediction and the need for experimental validation.
 ## Overview
 
 This repository contains the materials for an independent computational research project investigating hsa-miR-873-5p and its predicted target genes in glioblastoma.
