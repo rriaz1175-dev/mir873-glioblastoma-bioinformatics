@@ -13,8 +13,8 @@ What potential target genes and biological relationships can be identified for h
 
 ## Datasets
 
-- **GSE103228** — used to assess hsa-miR-873-5p expression in normal brain and glioblastoma samples.
-- **GSE90886** — used for independent expression assessment of the candidate target genes.
+- **GSE103228** — Public microRNA expression profiling dataset comprising 5 glioblastoma and 5 normal brain samples. Generated using the Exiqon miRCURY LNA microRNA Array (GPL18058). Used for the initial expression assessment of hsa-miR-873-5p. NCBI GEO: GSE103228
+- **GSE90886** — Public gene expression profiling dataset comprising 9 glioblastoma and 9 normal brain samples. Generated using the Affymetrix Human Gene Expression Array (GPL15207). Used for independent expression assessment of the 17 candidate target genes. NCBI GEO: GSE90886
 
 ## Analysis Pipeline
 
