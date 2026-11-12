@@ -59,6 +59,15 @@ The analysis followed an integrative computational workflow:
 - Independent gene expression assessment did not identify statistically significant differential expression among the 17 candidate genes after multiple-testing correction.
 - Findings should therefore be interpreted as exploratory and hypothesis-generating rather than evidence of experimentally established molecular mechanisms.
 
+## Reproducibility and Data Availability 
+
+- Both expression datasets used in this project are publicly available through the NCBI Gene Expression Omnibus (GEO): GSE103228 and GSE90886.
+- Candidate target prediction and cross-referencing were performed using miRDB and TargetScan-supported predictions accessed through miRCarta.
+- Protein–protein interaction analysis was conducted using STRING, followed by MCL clustering to explore potential network clusters.
+- Functional enrichment analysis was performed using g:Profiler.
+- The analysis workflow is documented in the accompanying "analysis_workflow.md" file.
+- The findings are based on computational analyses of publicly available data. Reproducing the complete analysis may require additional software settings, database versions, and analysis parameters that are not fully documented in the current workflow.
+
 ## Important Note
 
 The candidate genes identified in this project are computationally predicted targets and should not be considered experimentally confirmed hsa-miR-873-5p targets in glioblastoma.
